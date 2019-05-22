@@ -21,6 +21,6 @@ namespace MCCLib.Interfaces
         int MaxNumberOfValues { get; }
         string ValueStartIndicator { get; }        
         string Help { get; }
-
+        I_MCC_Action ArgumentAction { get; }
     }
 }

@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.cs" />
+    <Compile Include="Delegates\ProgressMade.cs" />
+    <Compile Include="Interfaces\I_MCC_Action.cs" />
     <Compile Include="Interfaces\I_MCC_Argument.cs" />
     <Compile Include="Interfaces\I_MCC_Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
