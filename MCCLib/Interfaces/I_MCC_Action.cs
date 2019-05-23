@@ -15,5 +15,6 @@ namespace MCCLib.Interfaces
         Func<I_MCC_Action> ExitAction { get; set; }
         Func<string, I_MCC_Action> ExitActionStr { get; set; }
         Delegates.ProgressMade OnProgressMade { get; set; }
+
     }
 }
